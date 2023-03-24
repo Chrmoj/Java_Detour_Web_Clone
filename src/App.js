@@ -11,6 +11,7 @@ import Corporate from "./components/pages/Corporate";
 import Menu from "./components/pages/Menu";
 import Coffee from "./components/pages/Coffee";
 import Locations from "./components/pages/Locations";
+import SubmittedEmployment from "./components/pages/SubmittedEmployment";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path="/menu" element={<Menu />} />
         <Route path="/coffee" element={<Coffee />} />
         <Route path="/locations" element={<Locations />} />
+        <Route path="/submittedEmployment" element={<SubmittedEmployment />} />
       </Routes>
     </>
   );

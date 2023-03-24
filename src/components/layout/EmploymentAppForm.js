@@ -1,5 +1,6 @@
 import React from "react";
 import "./EmploymentStyles.css";
+import { Link } from "react-router-dom";
 
 const EmploymentAppForm = () => {
   return (
@@ -8,7 +9,7 @@ const EmploymentAppForm = () => {
         <h1 style={{ color: "black" }}>Employment Application</h1>
         <h4>You can apply for a position at Java Detour in two ways</h4>
       </div>
-      <section className="first-way">
+      <form className="first-way">
         <p>
           1. Download the application to your computer (
           <a href="https://javadetour.com/wp-content/uploads/2013/08/JD-Employment-Application.pdf">
@@ -32,27 +33,27 @@ const EmploymentAppForm = () => {
           <input type="file" />
         </div>
         <button className="btn-submit-apply">Submit</button>
-      </section>
-      <section className="second-way">
+      </form>
+      <form className="second-way">
         <p>2. Fill out the application form below</p>
         <br />
         <p>Personal Information</p>
         <br />
         <label htmlFor="name-apply">Your Name (required)</label>
         <br />
-        <input type="text" />
+        <input type="text" required />
         <br />
         <label htmlFor="email-apply">Your Email (required)</label>
         <br />
-        <input type="email" />
+        <input type="email" required />
         <br />
         <label htmlFor="date-apply">Date (required)</label>
         <br />
-        <input type="date" />
+        <input type="date" required />
         <br />
         <label htmlFor="p-address-apply">Present Address (required)</label>
         <br />
-        <input type="text" />
+        <input type="text" required />
         <br />
         <label htmlFor="p-address-2-apply">Permanent Address: </label>
         <br />
@@ -60,7 +61,7 @@ const EmploymentAppForm = () => {
         <br />
         <label htmlFor="telephone-apply">Telephone (required) </label>
         <br />
-        <input type="text" />
+        <input type="text" required />
         <br />
         <label htmlFor="cellphone-apply">Cell Phone </label>
         <br />
@@ -302,7 +303,11 @@ const EmploymentAppForm = () => {
         </label>
         <br />
         <textarea name="" id="" cols="30" rows="10"></textarea>
-      </section>
+        <br />
+        <Link to="/submittedEmployment">
+          <button className="submit-employment-btn">Submit</button>
+        </Link>
+      </form>
     </div>
   );
 };

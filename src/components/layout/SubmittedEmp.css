@@ -1,0 +1,25 @@
+.container-emp-submission {
+  height: 400px;
+  width: 600px;
+  background-color: rgb(66, 66, 129, 0.3);
+  border-radius: 5px;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 170px;
+}
+
+.container-emp-submission h2 {
+  text-align: center;
+  font-size: 30px;
+  position: relative;
+  top: 30px;
+}
+
+.container-emp-submission h3 {
+  text-align: center;
+  font-size: 30px;
+  position: relative;
+  top: 50px;
+  font-family: "Anton", sans-serif;
+}

@@ -9,3 +9,20 @@
 .title-employment {
   text-align: center;
 }
+
+.submit-employment-btn {
+  width: 120px;
+  background-color: rgb(236, 157, 10);
+  padding-top: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  height: 40px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.submit-employment-btn:hover {
+  color: rgb(236, 157, 10);
+  background-color: black;
+}
