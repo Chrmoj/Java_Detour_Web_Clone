@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+
+.form-h1 {
+  color: white;
+  padding-bottom: 40px;
+}
+
+.form-container {
+  background-color: orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 110vh;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+input {
+  padding-bottom: 5px;
+}
+
+.input-form {
+  margin-bottom: 15px;
+  margin-left: 30px;
+  margin-top: 15px;
+}
+
+.label-form {
+  margin-left: 40px;
+  padding-bottom: 30px;
+}
+
+.label-form-2 {
+  margin-left: 85px;
+}
+
+.label-form-3 {
+  margin-left: 90px;
+}
+
+.label-form-4 {
+  margin-left: 70px;
+}
+
+.btn-submit-form {
+  width: 8rem;
+  height: 1.5rem;
+  margin-top: 20px;
+  background-color: orange;
+  color: black;
+  font-size: 16px;
+  font-family: "Secular One", sans-serif;
+}
+
+.btn-submit-form:hover {
+  color: white;
+  cursor: pointer;
+  background-color: black;
+}
+
+.form {
+  height: 100%;
+  width: 60%;
+  background-color: #212329;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  font-family: "Secular One", sans-serif;
+}

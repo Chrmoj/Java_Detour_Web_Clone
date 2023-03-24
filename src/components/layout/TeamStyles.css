@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap");
+
+.teamMemberPic1 {
+  width: 60%;
+}
+
+.teamMemberPic2 {
+  width: 40%;
+}
+
+.Team-container {
+  background-color: rgb(66, 66, 129, 0.2);
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.team-info {
+  background-color: rgb(66, 66, 129, 0.3);
+  width: 80%;
+  position: relative;
+  left: 140px;
+  top: 50px;
+  border-radius: 40px;
+  height: 90rem;
+}
+
+.team-info h4 {
+  font-size: 26px;
+  padding-top: 10px;
+}
+
+.first-member {
+  background-color: rgba(41, 41, 99, 0.3);
+  width: 400px;
+  border-radius: 30px;
+  position: relative;
+  left: 3rem;
+  top: 2rem;
+}
+
+.second-member {
+  background-color: rgba(41, 41, 99, 0.3);
+  width: 400px;
+  height: 36rem;
+  border-radius: 30px;
+  position: absolute;
+  right: 3rem;
+  top: 4.5rem;
+}
+
+.final-member {
+  background-color: rgba(41, 41, 99, 0.3);
+  width: 400px;
+  height: 41rem;
+  border-radius: 30px;
+  position: relative;
+  left: 21rem;
+  top: 5rem;
+}
+
+.first-member h5,
+.second-member h5,
+.final-member h5 {
+  font-family: "Rammetto One", cursive;
+  font-size: 20px;
+}
+
+.first-member p,
+.second-member p,
+.final-member p {
+  font-family: "Calistoga", cursive;
+}
+
+.second-member p {
+  position: relative;
+  top: 7rem;
+}
+
+.Team-container h1 {
+  font-family: "Monoton", cursive;
+  padding-top: 40px;
+}
+
+.Team-container h3 {
+  font-family: "Rammetto One", cursive;
+}
+
+.secondTitleBox {
+  position: relative;
+  top: 4rem;
+}

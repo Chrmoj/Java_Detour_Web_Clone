@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 93px;
+  width: 100%;
+  background-color: orange;
+}
+
+header .navbar {
+  max-width: 1240px;
+  height: 100%;
+  padding: 0 1rem;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  font-family: "Audiowide", cursive;
+  padding: 30px;
+  transition: color 0.7s ease-in;
+  font-size: 1.1rem;
+}
+
+.nav-link:hover {
+  color: brown;
+}
+
+.hamburger {
+  /*display: none;*/
+  color: white;
+  position: absolute;
+  top: 2.5rem;
+  right: 2rem;
+}

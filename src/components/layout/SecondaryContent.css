@@ -1,0 +1,41 @@
+.container-secondary {
+  height: auto;
+  background-color: orange;
+}
+
+.contentPicContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.boxes {
+  margin-bottom: 30px;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+li {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+.span-1 {
+  font-size: 22px;
+  margin-left: 12px;
+}
+
+.span-1:hover {
+  color: black;
+}
+
+.span-2:hover {
+  color: lightgrey;
+}

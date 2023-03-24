@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap");
+
+.story-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(66, 66, 129, 0.2);
+}
+
+.story-container h1 {
+  font-family: "Monoton", cursive;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.story-container span {
+  color: orange;
+}
+
+.top-part {
+  min-height: 300px;
+  padding-top: 30px;
+  width: 900px;
+}
+
+.top-part img {
+  padding-left: 30px;
+  width: 50%;
+}
+
+.text-story-1 {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.text-story p {
+  font-family: "Rammetto One", cursive;
+  width: 950px;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}

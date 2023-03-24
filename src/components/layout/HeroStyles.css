@@ -1,0 +1,172 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: orange;
+}
+
+.mySwiper {
+  width: auto;
+}
+
+.swiperslide img {
+  width: 100%;
+  height: 100%;
+}
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 2rem;
+  left: 4rem;
+}
+
+h1,
+i {
+  color: white;
+}
+
+.heading-t1,
+.heading-t2 {
+  margin-left: 2rem;
+}
+
+.heading-t1 {
+  margin-bottom: 1rem;
+  font-family: "Orbitron", sans-serif;
+}
+
+.heading-t2 {
+  font-family: "Orbitron", sans-serif;
+  margin-bottom: 3rem;
+  margin-left: 4rem;
+}
+
+h2 {
+  margin-bottom: 3rem;
+  font-family: "Sriracha", cursive;
+  margin-left: 1rem;
+  color: orange;
+}
+
+i {
+  margin-bottom: 1rem;
+  margin-top: 4rem;
+}
+
+.check-mark {
+  color: darkorange;
+  letter-spacing: 5px;
+}
+
+.check-mark3 {
+  color: orangered;
+  letter-spacing: 5px;
+  margin-left: 2rem;
+}
+
+.check-mark3-1 {
+  color: orangered;
+  letter-spacing: 5px;
+}
+
+.check-mark3-2 {
+  color: orangered;
+  letter-spacing: 5px;
+}
+
+.btn-location-slide {
+  position: absolute;
+  bottom: 3rem;
+  left: 35rem;
+  background-color: rgba(255, 115, 0, 0.8);
+  border-radius: 6px;
+  font-size: 22px;
+  width: 250px;
+  height: 30px;
+}
+
+.btn-local {
+  text-decoration: none;
+  color: black;
+  font-family: "Michroma", sans-serif;
+  transition: color 0.7s, ease-in;
+}
+
+.btn-local:hover {
+  cursor: pointer;
+  color: white;
+}
+
+.heading-t1-3 {
+  color: black;
+  margin-bottom: 1rem;
+  font-family: "Orbitron", sans-serif;
+  margin-left: 4rem;
+  font-size: 3.2rem;
+  margin-top: 1rem;
+}
+
+.heading-t2-3 {
+  color: black;
+  font-family: "Orbitron", sans-serif;
+  margin-bottom: 3rem;
+  margin-left: 2rem;
+  font-size: 3.2rem;
+}
+
+.heading-t1-2 {
+  margin-bottom: 1rem;
+  font-family: "Orbitron", sans-serif;
+  margin-left: 3rem;
+  margin-top: 1rem;
+  font-size: 2.5rem;
+}
+
+.heading-t2-2 {
+  font-family: "Orbitron", sans-serif;
+  margin-bottom: 3rem;
+  margin-left: 4rem;
+  font-size: 2.5rem;
+}
+
+.heading-t1-4 {
+  margin-bottom: 1rem;
+  font-family: "Orbitron", sans-serif;
+  margin-left: 3rem;
+  margin-top: 1rem;
+  font-size: 2.5rem;
+}
+
+.heading-t2-4 {
+  font-family: "Orbitron", sans-serif;
+  margin-bottom: 3rem;
+  margin-left: 1.5rem;
+  font-size: 2.5rem;
+}
+
+.heading-t2-four {
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+.banner {
+  margin-left: 50px;
+  margin-right: 100px;
+  position: relative;
+  right: 7rem;
+  top: 1rem;
+}
+
+.heading-t2-two {
+  margin-left: 30px;
+  margin-bottom: 15px;
+}
+
+.heading-t2-three {
+  margin-left: 50px;
+}
